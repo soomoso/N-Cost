@@ -8,7 +8,7 @@
   };
 
   //=> Text-base for Report
-  TEXT_BASE = `As a CLT employee, you will receive a gross monthly salary of R$ XXXX,XX (excluding benefits) or approximately R$ XXXX,XX when the full benefits package is included.
+  TEXT_BASE = `As a CLT employee, you will receive a net monthly salary of R$ XXXX,XX (excluding benefits) or approximately R$ XXXX,XX when the full benefits package is included.
 
 The total annual gross compensation, already including the 13th salary and vacation pay, will be approximately R$ XX,XXX.XX, equivalent to an hourly rate of R$ XX.XX.
 
@@ -63,7 +63,7 @@ The total annual cost to the company, including all payroll taxes, social charge
     sHour = `R$ ${formatar(valorHora)}`;
     sCosts = `R$ ${formatar(annualCosts)}`;
     //=> Update Report
-    text = `As a CLT employee, you will receive a gross monthly salary of <span class='nc-highlight'>${sHout}</span> (excluding benefits) or
+    text = `As a CLT employee, you will receive a net monthly salary of <span class='nc-highlight'>${sHout}</span> (excluding benefits) or
 approximately <span class='nc-highlight'>${sWith}</span> when the full benefits package is included.<br><br>
 
 The total annual gross compensation, already including the 13th salary and vacation pay, will 
