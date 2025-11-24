@@ -1,0 +1,219 @@
+/* ==> RESET <== */
+*,
+*::after,
+*::before {
+  font: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ==> HERO SECTION <== */
+.nc-hero {
+  width: 100%;
+  border-bottom: 1px solid rgba(255,255,255,0.199);
+}
+.nc-hero > .nc-hero__container {
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 916px;
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+}
+.nc-hero > .nc-hero__container > .nc-hero__title {
+  font-size: clamp(2.4rem, 5vw, 3rem);
+  font-weight: 500;
+  font-family: 'Arbutus Slab', serif;
+  margin-bottom: 1.25rem;
+}
+.nc-hero > .nc-hero__container > .nc-hero__resume {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 135%;
+}
+/* ==> APPLICATION SECTION <== */
+.nc-application {
+  width: 100%;
+  border-bottom: 1px solid rgba(255,255,255,0.199);
+}
+.nc-application > .nc-application__container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 916px;
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+}
+.nc-application > .nc-application__container > .nc-application__form > .nc-application__form-el {
+  width: 100%;
+  max-width: 304px;
+}
+.nc-application > .nc-application__container > .nc-application__form > .nc-application__form-el > .nc-application__form-field {
+  display: flex;
+  gap: 1.156rem;
+  margin-bottom: 3.59rem;
+  flex-direction: column;
+}
+.nc-application > .nc-application__container > .nc-application__form > .nc-application__form-el > .nc-application__form-field > .nc-application__form-label {
+  color: #a39e9e;
+  font-size: 1.125rem;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 25%;
+}
+.nc-application > .nc-application__container > .nc-application__form > .nc-application__form-el > .nc-application__form-field > .nc-application__form-input,
+.nc-application > .nc-application__container > .nc-application__form > .nc-application__form-el > .nc-application__form-field .nc-application__form-select {
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.116);
+  padding: 12px 8px;
+  outline: none;
+  transition: all 0.3s ease-in-out 0s;
+  font-family: 'Space Grotesk', sans-serif;
+  border-radius: 4px;
+  letter-spacing: 12%;
+  background-color: #171616;
+}
+.nc-application > .nc-application__container > .nc-application__form > .nc-application__form-el > .nc-application__form-field > .nc-application__form-input:focus,
+.nc-application > .nc-application__container > .nc-application__form > .nc-application__form-el > .nc-application__form-field .nc-application__form-select:focus {
+  box-shadow: rgba(255,255,255,0.24) 0px 3px 8px;
+}
+.nc-application > .nc-application__container > .nc-application__report {
+  width: 100%;
+  max-width: 575px;
+}
+.nc-application > .nc-application__container > .nc-application__report > .nc-application__report-el {
+  border: 1px solid rgba(255,255,255,0.178);
+  padding: 16px 12px;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 1.52rem;
+  border-radius: 4px;
+  background-color: #171616;
+  height: 305px;
+  max-height: 305px;
+}
+.nc-application > .nc-application__container > .nc-application__report > .nc-application__report-el > .nc-application__report-title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1.125rem;
+  letter-spacing: 25%;
+}
+.nc-application > .nc-application__container > .nc-application__report > .nc-application__report-el > .nc-application__report-resume {
+  color: #474747;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 140%;
+  font-weight: 500;
+  letter-spacing: 25%;
+}
+.nc-application > .nc-application__container > .nc-application__report > .nc-application__report-actions {
+  border: 1px solid rgba(255,255,255,0.116);
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #171616;
+}
+.nc-application > .nc-application__container > .nc-application__report > .nc-application__report-actions > .nc-application__report-action {
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.116);
+  padding: 12px 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out 0s;
+  font-weight: 500;
+  font-family: 'Space Grotesk';
+  border-radius: 4px;
+  background-color: #171616;
+}
+.nc-application > .nc-application__container > .nc-application__report > .nc-application__report-actions > .nc-application__report-action:hover {
+  cursor: pointer;
+  box-shadow: rgba(255,255,255,0.24) 0px 3px 8px;
+  background-color: #1a1919;
+}
+/* ==> HELP SECTION <== */
+.nc-help {
+  width: 100%;
+  border-bottom: 1px solid rgba(255,255,255,0.199);
+}
+.nc-help > .nc-help__container {
+  color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 916px;
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
+}
+.nc-help > .nc-help__container > .nc-help__title {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 2.85rem;
+}
+.nc-help > .nc-help__container > .nc-help__characteristics {
+  display: flex;
+  gap: 2.85rem;
+  flex-direction: column;
+}
+.nc-help > .nc-help__container > .nc-help__characteristics > .nc-help__feature {
+  border: 1px solid transparent;
+  display: flex;
+  gap: 1.255rem;
+  padding: 16px 12px;
+  transition: all 0.3s ease-in-out 0s;
+  border-radius: 4px;
+  flex-direction: column;
+}
+.nc-help > .nc-help__container > .nc-help__characteristics > .nc-help__feature > .nc-help__feature-tag {
+  color: #a39e9e;
+  font-size: 0.875rem;
+  font-family: 'Space Grotesk';
+  letter-spacing: 2px;
+}
+.nc-help > .nc-help__container > .nc-help__characteristics > .nc-help__feature > .nc-help__feature-title {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: 'Space Grotesk';
+}
+.nc-help > .nc-help__container > .nc-help__characteristics > .nc-help__feature > .nc-help__feature-resume {
+  color: #474747;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: 'Space Grotesk';
+  line-height: 135%;
+}
+.nc-help > .nc-help__container > .nc-help__characteristics > .nc-help__feature:hover {
+  border: 1px solid rgba(255,255,255,0.116);
+  box-shadow: rgba(255,255,255,0.24) 0px 3px 8px;
+  background-color: #1a1919;
+}
+/* ==> EXTRA CLASSES <== */
+.nc-highlight {
+  color: #fff;
+}
+/* ==> RESPONSIVE MOBILE <== */
+@media (max-width: 825px) {
+  .nc-application > .nc-application__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .nc-application > .nc-application__container > .nc-application__form {
+    width: 100%;
+  }
+  .nc-application > .nc-application__container > .nc-application__form > .nc-application__form-el {
+    max-width: none;
+    width: 100%;
+  }
+  .nc-application > .nc-application__container > .nc-application__report {
+    max-width: none;
+    width: 100%;
+  }
+  .nc-application > .nc-application__container > .nc-application__report > .nc-application__report-el {
+    height: 250px;
+    max-height: 250px;
+  }
+}

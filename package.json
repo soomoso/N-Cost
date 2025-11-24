@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "coffeescript": "^2.7.0",
+    "pug": "^3.0.3"
+  }
+}
