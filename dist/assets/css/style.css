@@ -215,5 +215,6 @@
   .nc-application > .nc-application__container > .nc-application__report > .nc-application__report-el {
     height: 250px;
     max-height: 250px;
+    overflow: scroll;
   }
 }
